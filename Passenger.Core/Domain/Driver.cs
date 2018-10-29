@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Passenger.Core.Domain
 {
-    public class Driver
+    public class Driver // Aggregate root - posiada byty takie jak Vehicle, które same nic nie znaczą.
     {
         public Guid Id { get; protected set; }
         public Guid UserId { get; protected set; }

@@ -29,7 +29,6 @@ namespace Passenger.Infrastructure.Repositories
         public IEnumerable<User> GetAll()
             => _users;
 
-
         public void Remove(Guid id)
         {
             var user = Get(id);

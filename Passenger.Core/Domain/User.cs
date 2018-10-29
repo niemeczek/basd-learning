@@ -24,7 +24,7 @@ namespace Passenger.Core.Domain
             UserName = userName;
             Password = password;
             Salt = salt;
-            CreatedAt = DateTime.Now;
+            CreatedAt = DateTime.UtcNow;
         }
     }
 }
